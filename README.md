@@ -6,7 +6,7 @@ Get the version of deno_std associated with Deno version.
 ### CLI
 #### Installation
 ```
-$ deno install --allow-run --allow-net https://deno.land/x/deno_std_version@0.1.0/deno_std_version.ts
+$ deno install --allow-run --allow-net https://deno.land/x/deno_std_version@0.1.1/deno_std_version.ts
 ```
 
 ```
@@ -23,7 +23,7 @@ deno_std: 0.105.0
 
 ### module
 ```typescript
-import { fetchStdVersion } from "https://deno.land/x/deno_std_version@0.1.0/mod.ts";
+import { fetchStdVersion } from "https://deno.land/x/deno_std_version@0.1.1/mod.ts";
 
 const denoVersion = "1.13.1";
 const stdVersion = await fetchStdVersion(denoVersion);
